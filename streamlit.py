@@ -123,7 +123,7 @@ if __name__ == "__main__":
     bullish_companies = []
 
     # Decide how many parallel workers to run (Default: total CPU cores minus 1)
-    max_workers = max(1, os.cpu_count() - 1)
+    max_workers = max(1, 2)
     print(
         f"Starting parallel pipeline with {max_workers} workers for {len(company_list)} companies..."
     )
